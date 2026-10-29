@@ -1,0 +1,401 @@
+@font-face {
+  font-family: 'childhood';
+  src: url("childhood_3");
+}
+
+html {text-align: center; display:flex; justify-content: center;
+
+}
+
+body {
+  background-color: #e3fde0;
+  font-family: Arial;
+  padding: 25px;
+  width: 60%;
+
+}
+
+h1 {
+  color: #261f2e;
+}
+
+.menu a {
+  display: inline-block;
+  background-color: rgb(233, 219, 219);
+  color: #2f644a;
+  padding: 10px 15px;
+  margin: 5px;
+  border: 1px solid #4c3164;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+    cursor: url("apple.png") 16 16, auto;
+}
+
+a, button {
+    cursor: url("aple.png") 16 16, pointer;
+}
+
+.section {
+  background-color: rgb(231, 201, 235);
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgb(122, 99, 99);
+}
+
+img {
+  width: 500px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+
+
+  body {
+
+    cursor: url('my-custom-cursor.png'), auto; 
+  }
+
+.header {
+  background-color: rgb(210, 175, 214);
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  width: fit-content;
+  border: 1px solid rgb(50, 66, 82);
+}
+
+body {
+    padding: 25px;
+    background-image: url("f.jpg");
+    background-size: cover;
+    background-repeat: auto;
+    background-position: center;
+}
+
+body {
+    background-color: rgb(224, 247, 225);
+    font-family: Arial;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    color: rgb(61, 60, 73);
+    padding: 15px;
+}
+
+
+
+body, a, button {
+
+  cursor: url("greenapple_cursor_32.png") 16 16, auto;
+}
+
+    html, body, * {
+        cursor: url("./greenapple_cursor_32.png") 0 0, crosshair !important;
+    }
+
+
+
+.museum-box {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(20, 35, 55, 0.75);
+    border: 1px solid white;
+    border-radius: 15px;
+    min-height: 450px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 150px;
+    flex-shrink: 0;
+}
+
+
+.menu a {
+    display: block;
+    background-color: #e3fde0;
+    color: #2f644a;
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #b8d9b3;
+}
+
+
+.content {
+    flex: 1;
+    min-width: 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+@media (max-width: 650px) {
+    .museum-box {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+    }
+}
+
+
+
+.museum-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+
+.museum-layout .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 150px;
+    flex-shrink: 0;
+    gap: 8px;
+}
+
+.museum-layout .menu a {
+    display: block;
+    margin: 0;
+}
+
+
+.museum-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.museum-content .section {
+    margin-top: 0;
+}
+
+
+body {
+    width: 90%;
+    max-width: 1200px;
+}
+
+
+@media (max-width: 600px) {
+    .museum-layout {
+        flex-direction: column;
+    }
+
+    .museum-layout .menu {
+        width: 100%;
+    }
+}
+
+
+/* Cheol - right side */
+.side-character {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    height: 50vh;
+    width: auto;
+    max-width: none;
+
+    margin: 0;
+    border-radius: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Mi-ae - left side */
+.miae-character {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    height: 50vh;
+    width: auto;
+    max-width: none;
+
+    margin: 0;
+    border-radius: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+
+
+.ap-tulips {
+    position: fixed;
+    top: 15%;
+    right: 230px;
+    width: 180px;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+
+.museum-content .section {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.header {
+    width: 410px;
+    max-width: 100%;
+    min-height: 135px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.header h1 {
+    margin: 10px 0;
+}
+
+.header p {
+    margin: 10px 0;
+}
+
+
+
+.header {
+    position: relative;
+    left: 87.5px;
+}
+
+
+
+
+.museum-content .section {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.museum-content .section h2 {
+    font-size: 26px;
+}
+
+
+.museum-content .section h3 {
+    font-size: 22px;
+}
+
+
+.menu a {
+    font-size: 17px;
+}
+
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+/* WAVY PURPLE BORDER */
+.wavy-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.wavy-border svg {
+    width: 100%;
+    height: 100%;
+}
+
+.wavy-border svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* Keep website content above the border */
+.header,
+.museum-layout {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+/* Make the border follow the entire page */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    position: static;
+}
+
+.wavy-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.corner-leaf {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 180px;
+    height: auto;
+
+    margin: 0;
+    border-radius: 0;
+
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Keep the main content in front */
+.header,
+.museum-layout {
+    position: relative;
+    z-index: 2;
+}
